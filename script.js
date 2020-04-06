@@ -786,7 +786,7 @@ class App extends React.Component {
       React.createElement("div", { id: "quote-box", class: "col-4" },
       React.createElement("div", { class: "button-container" },
       React.createElement("button", { id: "new-quote", class: "btn btn-secondary", onClick: this.handleClick }, " New quote"),
-      React.createElement("a", { id: "tweet-quote", href: `https://twitter.com/intent/tweet?status=${encodeURI(this.state.quote + " - " + this.state.author)}`, target: "_blank" },
+      React.createElement("a", { id: "tweet-quote", href: `https://twitter.com/intent/tweet?text=${encodeURI(this.state.quote + " - " + this.state.author)}`, target: "_blank" },
       React.createElement("i", { class: "fa fa-twitter" }))),
 
 
