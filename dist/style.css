@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+body {
+  background-color: #8fb3d6;
+}
+body #quote-box {
+  width: 1000px;
+  min-height: 200px;
+  background-color: #FFFFFF;
+  font-family: "Dancing Script", cursive;
+  -webkit-box-shadow: 5px 5px 15px #000000;
+  -moz-box-shadow: 5px 5px 15px #000000;
+  -ms-box-shadow: 5px 5px 15px #000000;
+  box-shadow: 5px 5px 15px #000000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+body #quote-box #text {
+  padding: 2%;
+  font-size: 30px;
+}
+body #quote-box .button-container {
+  padding-top: 2px;
+}
+body #quote-box .button-container #author {
+  font-size: 20px;
+}
+body #quote-box .button-container #new-quote {
+  font-size: 15px;
+  margin-right: 5px;
+}
